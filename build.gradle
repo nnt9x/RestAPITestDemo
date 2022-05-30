@@ -12,6 +12,11 @@ repositories {
 dependencies {
     // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
     testImplementation 'io.rest-assured:rest-assured:5.1.0'
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation 'org.json:json:20220320'
+
+    implementation 'io.cucumber:cucumber-java:7.3.4'
     testImplementation 'com.github.fslev:json-compare:2.43'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
